@@ -1,0 +1,95 @@
+<!--
+    Aitor Gaillard García
+    Desarrollo de aplicaciones multiplataforma
+    Lenguaje de marcas y sistemas de gestión de la información (DAM)
+    LMSGI02 Tarea evaluativa 2.
+-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title>Best games by AG</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    
+    <!-- El style está en este caso en el propio html para mantener orden-->
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        form {
+            max-width: 600px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        /*Botón de enviar el formulario*/
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="../css/css.css">
+</head>
+<body>
+    <header class="cabecera">
+        <h1><a href="../html/index.html">JUEGOS FAVORITOS</a></h1>
+        <h3>BIENVENIDOS AL MUNDO DE LOS VIDEOJUEGOS</h3>
+ 
+        <nav>
+         <ul>
+             <li><a href="../html/categorias.html"><i class="fas fa-clipboard-list"></i></a></li>
+             <li><a href="../html/noticias.html"><i class="fas fa-book-open"></i></a></li>
+             <li><a href="../html/formulario.html"><i class="fas fa-users"></i></a></li>
+         </ul>
+         </nav>
+     </header>
+     <br><h1 align="center">Formulario</h1><br>
+
+    <form action="#" method="post">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" placeholder="ejemplo@ejemplo.com" name="email" required>
+
+        <label for="comentarios">Comentarios:</label>
+        <textarea type="text" name="comentarios" rows="4" placeholder="Comentarios aquí"></textarea>
+
+        <input type="submit" value="Enviar">
+
+    </form>
+    <footer>
+        <ul>
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+            <p>&copy; 2009 <a href="../semantics.html">Aitor</a></p>
+        </ul>
+
+    </footer>
+
+</body>
+</html>
