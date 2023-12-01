@@ -15,7 +15,7 @@ header{
     padding: 30px;
     border-radius: 7pt;
     text-align: center;
-    background-image: url("../documentos/fondo.jpg");
+    background-image: url("fondo.jpg");
 }
 
 .cabecera {
@@ -102,7 +102,7 @@ header{
     margin-top: 10px;
     margin-bottom: 10px;
     height: auto;
-    background-image: url("../documentos/fondo6.jpg");
+    background-image: url("fondo6.jpg");
     background-position: 50%;
     border-radius: 7pt;
 }
@@ -118,7 +118,7 @@ header{
     padding: 10px;
     border: 1px solid aliceblue;
     border-radius: 10px;
-    background-image: url("../documentos/horizon.jpg");
+    background-image: url("horizon.jpg");
 }
 
 /*página de noticias*/
@@ -159,7 +159,7 @@ aside {
     flex-direction: column;
     flex-wrap: wrap;
     justify-content:space-around;
-    background-image: url(../documentos/fondo6.jpg);
+    background-image: url("fondo6.jpg");
     background-size: auto;
     background-repeat: no-repeat;
 }
